@@ -4,6 +4,5 @@ easy qemu is an installer that simplifies qemu installation on arch systems or a
 
 install qemu with this command
 ```
-
 wget https://raw.githubusercontent.com/2duo/easyqemu/main/install.sh && chmod +x install.sh && ./install.sh
 ```
