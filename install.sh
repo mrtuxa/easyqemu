@@ -20,6 +20,7 @@ yay -S --noconfirm --needed libguestfs
 sudo systemctl enable libvirtd.service
 sudo systemctl start libvirtd.service
 cd /etc/libvirt
+rm libvirtd.conf
 sudo pacman -S wget
 sudo wget https://raw.githubusercontent.com/2duo/easyqemu/main/libvirtd.conf
 sudo usermod -a -G libvirt $(whoami)
