@@ -8,7 +8,7 @@ cd git
 sudo pacman -S git 
 git clone https://aur.archlinux.org/yay.git
 cd yay
-echo installing yay (aur helper)
+echo "installing yay (aur helper)"
 clear
 makepkg -si
 clear
