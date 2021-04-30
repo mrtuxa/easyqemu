@@ -1,3 +1,4 @@
+#!/bin/bash
 echo installing qemu
 sudo pacman -Syyu
 sudo pacman -S base-devel
