@@ -41,4 +41,4 @@ echo "options kvm-intel nested=1" | sudo tee /etc/modprobe.d/kvm-intel.conf
 systool -m kvm_intel -v | grep nested
 cat /sys/module/kvm_intel/parameters/nested
 clear
-echo now is qemu install launch now virtual machine manager
+echo now is qemu installed launch now virtual machine manager
