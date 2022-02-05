@@ -1,8 +1,8 @@
 # easyqemu
 
-easy qemu is an installer that simplifies qemu installation on arch systems or arch based systems.
+easy qemu は arch システムまたは arch ベースのシステムへの qemu のインストールを簡素化するインストーラです。
 
-install qemu with this command
+このコマンドで qemu をインストールします。
 ```bash
 wget https://raw.githubusercontent.com/2duo/easyqemu/main/install.sh && chmod +x install.sh && ./install.sh
 ```
